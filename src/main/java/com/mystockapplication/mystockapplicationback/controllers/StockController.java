@@ -43,7 +43,7 @@ import java.io.FileNotFoundException;
 import org.springframework.core.io.Resource;
 
 @RestController
-@CrossOrigin(origins = "http://127.0.0.1:3000")
+@CrossOrigin(origins = "http://127.0.0.1:5500")
 @RequestMapping("/stocks")
 public class StockController {
     @Autowired
